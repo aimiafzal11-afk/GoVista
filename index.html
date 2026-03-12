@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoVista | Explore Pakistan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+    <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png"
+         alt="GoVista Logo"
+         width="32"
+         class="me-2">
+    <span class="fw-bold">GoVista</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#goVistaNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="goVistaNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="places.html">Places</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <button id="themeToggle" class="theme-toggle">
+    <span class="sun">☀️</span>
+    <span class="moon">🌙</span>
+    </button>
+
+</nav>
+
+<!-- HERO SECTION: Big introductory section with background image -->
+<header id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+
+        <!-- SLIDE 1 -->
+        <div class="carousel-item active hero-slide"
+             style="background-image: url('https://images.unsplash.com/photo-1470756544705-1848092fbe5f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFraXN0YW58ZW58MHx8MHx8fDA%3D');">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content text-center text-white">
+                <h1 class="display-4 fw-bold">Discover Pakistan</h1>
+                <p class="lead">Mountains, valleys & unforgettable journeys</p>
+            </div>
+        </div>
+
+        <!-- SLIDE 2 -->
+        <div class="carousel-item hero-slide"
+             style="background-image: url('https://images.squarespace-cdn.com/content/v1/5dfd1ed2eef73319397ce4fe/1589106078688-VBG4QSV5B82HUTEH4OTH/Fairy+Meadows+web.jpg');">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content text-center text-white">
+                <h1 class="display-4 fw-bold">Explore Northern Areas</h1>
+                <p class="lead">Hunza, Skardu & Fairy Meadows</p>
+            </div>
+        </div>
+
+        <!-- SLIDE 3 -->
+        <div class="carousel-item hero-slide"
+             style="background-image: url('https://i.dawn.com/primary/2019/05/5cd119fc1703d.jpg');">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content text-center text-white">
+                <h1 class="display-4 fw-bold">Coastal Beauty</h1>
+                <p class="lead">Where land meets the Arabian Sea</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- CONTROLS -->
+    <button class="carousel-control-prev" type="button"
+            data-bs-target="#heroSlider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button"
+            data-bs-target="#heroSlider" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+
+</header>
+
+
+<main>
+    <section class="home-intro">
+    <div class="home-split">
+
+        <div class="home-text">
+            <h2 class="home-heading">Welcome to Pakistan</h2>
+
+            <p class="home-subheading">
+                A land where nature, culture, and history come together.
+            </p>
+
+            <p>
+                Pakistan is a land of extraordinary contrasts, where snow-covered
+                peaks rise above ancient civilizations, golden deserts stretch beside
+                turquoise seas, and timeless traditions thrive among breathtaking
+                landscapes.
+            </p>
+
+            <p>
+                From the towering heights of the Karakoram Mountains to the untouched
+                shores of the Arabian Sea, Pakistan offers experiences found nowhere
+                else in the world — adventure, serenity, culture, and discovery.
+            </p>
+        </div>
+
+        <div class="home-image">
+            <img src="https://i0.wp.com/unusualplaces.org/wp-content/uploads/2023/09/Depositphotos_358527158_S-jpg.webp?ssl=1"
+                 alt="Beautiful Pakistan Landscape">
+        </div>
+
+    </div>
+</section>
+
+<section class="home-gallery">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/1*rjTPt8BpFg7LiQn8EPG5gw.jpeg" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4">
+                <img src="https://lp-cms-production.imgix.net/2023-08/GettyImages-1178984782.jpg?auto=format,compress&q=72&fit=crop" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4">
+                <img src="https://www.teflcourse.net/cimage/webroot/img.php?src=/uploads/pakistan-featured-image.jpg&width=1000&q=80&sharpen" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container my-5">
+    <h2 class="fw-bold">Ready to Explore Pakistan?</h2>
+    <p class="text-muted mt-2 mb-4">
+        Discover breathtaking landscapes, cultural heritage, and unforgettable destinations.
+    </p>
+
+    <a href="places.html" class="btn btn-primary btn-lg px-5">
+        Explore Places
+    </a>
+</section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 GoVista. All rights reserved.</p>
+        <div class="footer-contact">
+    <span>📧 govista@gmail.com</span>
+    <span>📞 +92 300 1234567</span>
+</div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+const toggleBtn = document.getElementById("themeToggle");
+
+toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+});
+</script>
+
+</body>
+</html>

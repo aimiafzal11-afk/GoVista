@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoVista | Explore Pakistan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+    <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png"
+         alt="GoVista Logo"
+         width="32"
+         class="me-2">
+    <span class="fw-bold">GoVista</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#goVistaNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="goVistaNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="places.html">Places</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <button id="themeToggle" class="theme-toggle">
+    <span class="sun">☀️</span>
+    <span class="moon">🌙</span>
+</button>
+
+</nav>
+
+<section class="about-split">
+
+    <div class="about-text">
+
+        <h1>About GoVista</h1>
+        <p class="about-lead">
+            What this platform is, why it exists, and what you’ll find here.
+        </p>
+
+        <div class="about-qna">
+            <h4>What is GoVista?</h4>
+            <p>
+                GoVista is a visual travel inspiration platform dedicated to
+                showcasing Pakistan’s most beautiful destinations. It highlights
+                places through imagery and concise descriptions rather than
+                travel packages or bookings.
+            </p>
+
+            <h4>Why was GoVista created?</h4>
+            <p>
+                Pakistan is often underrepresented in global travel narratives.
+                GoVista exists to change that by presenting its landscapes,
+                culture, and heritage in a clean, modern, and accessible way.
+            </p>
+
+            <h4>What can visitors expect?</h4>
+            <p>
+                Visitors can explore iconic valleys, historic landmarks, coastal
+                views, and cultural sites. All carefully organized to inspire
+                exploration and appreciation.
+            </p>
+
+            <h4>Is GoVista a travel agency?</h4>
+            <p>
+                No. GoVista does not offer bookings, itineraries, or travel
+                services. Its sole purpose is inspiration and discovery.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="about-image">
+        <img src="https://img.freepik.com/free-vector/people-holding-travel-related-icons_53876-64662.jpg?t=st=1766182041~exp=1766185641~hmac=73412d3a85eb28bd58246563516a5aca78096f6ea4a01475fbd23390c53c9c66">
+    </div>
+
+</section>
+
+ <footer>
+        <p>&copy; 2025 GoVista. All rights reserved.</p>
+        <div class="footer-contact">
+    <span>📧 govista@gmail.com</span>
+    <span>📞 +92 300 1234567</span>
+</div>
+
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+const toggleBtn = document.getElementById("themeToggle");
+
+toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+});
+</script>
+
+
+</body>
+</html>
