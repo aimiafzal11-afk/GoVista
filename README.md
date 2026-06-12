@@ -14,9 +14,7 @@ Built using modern front-end technologies, the website focuses on responsive des
 
 <img width="956" height="438" alt="Homepage" src="https://github.com/user-attachments/assets/8d5ed9d6-a645-4835-af23-24cf1ec06e50" />
 
-<img width="959" height="395" alt="image" src="https://github.com/user-attachments/assets/da3be925-0f6a-4c6e-8187-b419a8a6e8fe" />
-
-<img width="959" height="442" alt="Destinations Section" src="https://github.com/user-attachments/assets/a6a92aa5-82e9-460d-98c6-d7c1763cafb8" />
+<img width="959" height="440" alt="image" src="https://github.com/user-attachments/assets/88ecf289-4f38-4787-b555-438e5d7bbbbb" />
 
 <img width="959" height="395" alt="image" src="https://github.com/user-attachments/assets/6474036c-212f-4697-8148-acb15a5738ca" />
 
